@@ -12,11 +12,31 @@
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="{{asset "css/styles.css"}}">
         {{ghost_head}}
         <script src="{{asset "js/vendor/modernizr-2.8.0.min.js"}}"></script>
     </head>
-    <body class="{{body_class}}">
+<body>
+<img class="plane" src="assets/img/paper.svg">
+<div class="lateral">
+          <aside class="author">
+            
+            <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
+            <p class="name">by <strong>Leônidas V.</strong></p>
+            <p class="about">Heavy Linux-user, developer, geek, GNU-GPL v3 compliant.</p>
+            <p class="address">São Paulo, Brazil.</p>
+            <p class="link"><a href="http://leonidasv.com/portifolio" title="Portifolio">Portifolio</a></p>
+
+            <ul class="social">
+              <li><a class="icon-facebook-squared" href="http://facebook.com/leonidasvilleneuve" target="_blank" title="Facebook"></a></li>
+              <li><a class="icon-github" href="https://github.com/leonidasv" target="_blank" title="Fork me on Github"></a></li>
+              <li><a class="icon-instagram" href="https://instagram.com/essefoiousermenospiorqeuachei" target="_blank" title="Instagram"></a></li>
+            </ul>
+
+          </aside>
+</div>
+    <div class="{{body_class}} home">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -33,8 +53,8 @@
           <div class="container clearfix">
            
               <a class="icon-rss" href="{{@blog.url}}/rss/" title="RSS Feed"></a>
-              <p>All content copyright <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a> &copy; 2014. All rights reserved.</p>
-              <p>Proudly published with Ghost. Theme designed and built by <a href="http://rriegger.com" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a></p>
+              <p>All content copyright <a href="http://leonidasv.com" title="Leonidas Villeneuve">Leonidas Villeneuve</a> &copy; 2017. All rights reserved.</p>
+              <p>Proudly published with Ghost. Theme designed by <a href="http://leonidasv.com" title="Leonidas Villeneuve">Leonidas Villeneuve</a>, based on concept by <a href="http://blog.rriegger.com/" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a>.</p>
            
           </div>
         </footer>
@@ -55,9 +75,10 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-XXXXXXX-X', 'domain.com');
+          ga('create', 'UA-91884496-1', 'auto');
           ga('send', 'pageview');
 
         </script>
+ 	</div>
     </body>
 </html>
