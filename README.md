@@ -1,6 +1,6 @@
-# Minimalistic Theme
+# Air Theme
 
-The minimalistic theme for [Ghost](http://github.com/tryghost/ghost/).
+Minimalistic blog theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Forked from https://github.com/rriegger/MinimalisticBlogTheme
 
