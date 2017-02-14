@@ -2,6 +2,9 @@
 
 The minimalistic theme for [Ghost](http://github.com/tryghost/ghost/).
 
+Forked from https://github.com/rriegger/MinimalisticBlogTheme
+
+
 ## Copyright & License
 
                                  Apache License
