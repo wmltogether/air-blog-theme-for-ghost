@@ -4,6 +4,13 @@ Minimalistic blog theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Forked from https://github.com/rriegger/MinimalisticBlogTheme
 
+##How to install:
+
+* Make a zip file containing the main folder (Minimalistic Blog Theme) 
+* Log in to Ghost administration panel
+* Go to General > Themes > Upload a theme 
+* Find and select the previously created zip file
+* Wait for upload completion and activate the new theme
 
 ## Copyright & License
 
