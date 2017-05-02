@@ -1,11 +1,11 @@
 			<div class="pagination">
 				<nav>
 					{{#if prev}}
-					<a class="btn newer" href="{{page_url prev}}" title="Newer Posts">&laquo; Newer</a>
+					<a class="btn newer" href="{{page_url prev}}" title="较新的文章">&laquo; 较新的文章</a>
 					{{/if}}
-					<p class="counter">Page {{page}} of {{pages}}</p>
+					<p class="counter">第 {{page}} /  {{pages}} 页</p>
 					{{#if next}}
-					<a class="btn older" href="{{page_url next}}" title="Older Posts">Older &raquo;</a>
+					<a class="btn older" href="{{page_url next}}" title="较早的文章">较早的文章 &raquo;</a>
 					{{/if}}
 				</nav>
              </div>

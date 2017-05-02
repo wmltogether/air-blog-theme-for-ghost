@@ -1,5 +1,12 @@
 # Air Theme
 
+air theme ghost 个人定制
+
+* 移除googlefonts
+* 更换js前端库为upaiyun的镜像
+* 更换font-awesome
+* 个人页面的定制化
+
 Minimalistic blog theme for [Ghost](http://github.com/tryghost/ghost/).
 
 Forked from https://github.com/rriegger/MinimalisticBlogTheme

@@ -5,14 +5,14 @@
               
               {{#post}}
               <article class="{{post_class}} post">
-                <a class="btn" href="{{@blog.url}}" title="Back to homepage">&laquo; Back to home</a>
+                <a class="btn" href="{{@blog.url}}" title="返回首页">&laquo; 返回首页</a>
                 <h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1>
-                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
+                <footer class="post-info">发表日期 <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
                 
                 {{content}}
                 
                 <ul class="share-buttons">
-                    <li>Share this article:</li>
+                    <li>分享到:</li>
                     <li><a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
                         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a></li>
                     <li><a class="icon-twitter"  href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"

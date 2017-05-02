@@ -3,18 +3,18 @@
         <div class="container clearfix">
           <main role="main" class="content">
               <div class="tag-title">
-                <p>All articles tagged as:</p>
+                <p>将所有文章的标签标记为:</p>
                 <h1>{{tag.name}}</h1>
               </div>
 
               {{#foreach posts}}  
               <article class="{{post_class}} post">
                 <h2><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
-                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
+                <footer class="post-info">发表日期 <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
                 
                 <p>{{excerpt characters="600"}}&hellip;</p>
                 
-                <a href="{{url}}" title="{{title}}">Read more &raquo;</a>
+                <a href="{{url}}" title="{{title}}">阅读更多 &raquo;</a>
               </article>
               {{/foreach}}
 
@@ -22,7 +22,7 @@
              
           </main>
           <aside class="author">
-            <a class="btn" href="{{@blog.url}}" title="Back to homepage">&laquo; Back to home</a>
+            <a class="btn" href="{{@blog.url}}" title="返回首页">&laquo; 返回首页</a>
             <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
 <!--            <p class="name">by <strong>Leônidas V.</strong></p>
             <p class="about">Heavy Linux-user, developer, geek, GNU-GPL v3 compliant.</p>
