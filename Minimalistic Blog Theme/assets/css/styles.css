@@ -697,6 +697,27 @@ hr {
   margin: 10px auto;
   color: #dddddd; }
 
+.author p.msg-board-0 {
+  font-family: 'Open Sans', sans-serif;
+  width: 55%;
+  font-size: 16px;
+  margin: 10px auto;
+  color: #dddddd; }
+
+.author p.msg-board-1 {
+  font-family: 'Open Sans', sans-serif;
+  width: 55%;
+  font-size: 16px;
+  margin: 10px auto;
+  color: #dddddd; }
+
+.author p.msg-board-2 {
+  font-family: 'Open Sans', sans-serif;
+  width: 55%;
+  font-size: 16px;
+  margin: 10px auto;
+  color: #dddddd; }
+
 .author p.link {
   margin-bottom: 10px; 
   color: white;  
@@ -823,7 +844,7 @@ body.post-template .site-header h2 .logo {
     width:200px;
     margin-top: 10px;
     position:absolute;} }
-}
+
 .ir {
   background-color: transparent;
   border: 0;
